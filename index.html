@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Unbranded Meta -->
+		<meta name="author" content="Your Name">
+		<meta name="description" content="A public, simplified version of a live personal/portfolio website created for learning, inspiration, and reuse.">
+		<meta name="robots" content="index, follow">
+		<meta name="theme-color" content="#a0a0a0">
+
+		<title>Open Source Portfolio Template</title>
+
+		<!-- Open Graph -->
+		<meta property="og:type" content="website">
+		<meta property="og:title" content="Open Source Portfolio Template">
+		<meta property="og:description" content="A public, simplified version of a live personal/portfolio website created for learning, inspiration, and reuse.">
+		<meta property="og:url" content="https://example.com/">
+
+		<!-- Twitter -->
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:title" content="Open Source Portfolio Template">
+		<meta name="twitter:description" content="A public, simplified version of a live personal/portfolio website created for learning, inspiration, and reuse.">
+
+		<!-- Favicon -->
+		<link href="assets/favicon.png" rel="icon" type="image/png" />
+		<link href="assets/favicon.png" rel="shortcut icon" type="image/x-icon" />
+
+		<!-- CSS -->
+		<link as="style" href="css/normalize.css" rel="preload" />
+		<link href="css/normalize.css" rel="stylesheet" />
+		<link as="style" href="css/main.css" rel="preload" />
+		<link href="css/main.css" rel="stylesheet" />
+
+		<!-- Fonts -->
+		<link href="https://fonts.googleapis.com" rel="preconnect">
+		<link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+		<link as="style" href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;700&display=swap" onload="this.onload=null;this.rel='stylesheet'" rel="preload" />
+		<noscript>
+			<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;700&display=swap" rel="stylesheet" />
+		</noscript>
+
+		<!-- FontAwesome -->
+		<link
+			crossorigin="anonymous"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+			integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+			referrerpolicy="no-referrer"
+			rel="stylesheet" 
+		/>
+	</head>
+
+	<body class="">
+		<a class="btn skip" href="#main" id="skipLink">Skip to Main Content</a>
+
+		<nav class="navbar">
+			<div class="container">
+				<a aria-labelledby="logoTitle" class="navbar-identity" href="#">
+					<!-- Unbranded Placeholder Logo -->
+					<svg class="logo" viewBox="0 0 380 240" xmlns="http://www.w3.org/2000/svg">
+						<title id="logoTitle">Placeholder Logo</title>
+						<rect x="0" y="48" width="60" height="144" rx="6"/>
+						<rect x="80"  y="0"  width="60"  height="240" rx="6"/>
+						<rect x="160" y="12" width="60"  height="192" rx="6"/>
+						<rect x="240" y="48" width="60"  height="144" rx="6"/>
+						<rect x="320" y="36" width="60"  height="96" rx="6"/>
+					</svg>
+				</a>
+
+				<div class="navbar-menu">
+					<a class="link services" href="#services" id="servicesLink">Services</a>
+					<button class="btn contact trigger" aria-haspopup="dialog" aria-controls="modal" aria-expanded="false" data-title="Contact" data-type="Contact" data-button="Contact">
+          				<i class="fa-solid fa-shapes" aria-hidden="true"></i>Contact
+        			</button>
+				</div>				
+			</div>
+		</nav>
+
+		<main id="main" tabindex="-1">
+			<!-- Hero -->
+			<section class="hero">
+				<div class="container">
+					<h1>Web Developer / Graphic Designer</h1>
+					<h2>Portfolio Template</h2>
+					<h3>Replace with Your Own Details</h3>
+
+					<!-- Placeholder Profile Illustration -->
+					<div class="profile">
+						<img alt="" class="portrait" decoding="async" fetchpriority="high" role="presentation" src="assets/blob.svg" />
+					</div>
+
+					<div class="status">
+						<span aria-label="Open to Work" class="pill fulltime open">
+							<i aria-hidden="true" class="fa-solid fa-shapes"></i>Full-Time
+							<span aria-hidden="true" class="tooltip">Open to Work</span>
+						</span>
+
+						<span aria-label="Accepting New Clients" class="pill freelance open">
+							<i aria-hidden="true" class="fa-solid fa-shapes"></i>Freelance
+							<span aria-hidden="true" class="tooltip">Accepting New Clients</span>
+						</span>
+					</div>
+
+					<!-- Placeholder Workstation Illustration -->
+					<img alt="" class="workspace" decoding="async" role="presentation" src="assets/computer.svg" />
+				</div>
+			</section>
+
+			<!-- About -->
+			<section class="about">
+				<div class="container">
+					<h2>Hello</h2>
+
+					<p class="subhead">This is an open-source portfolio template. Replace this copy with your own background, what you're great at, and what you love building. Keep it concise and user-focused.</p>
+				</div>
+			</section>
+
+			<!-- Skills -->
+			<section class="skills">
+				<div class="container">
+					<h2 class="a11y">Skills</h2>
+
+					<div class="content">
+						<!-- Column 1 -->
+						<div aria-labelledby="skillsSkill1" class="column" role="region">
+							<div class="icon">
+								<i aria-hidden="true" class="fa-solid fa-shapes"></i>
+							</div>
+
+							<h3 id="skillsSkill1">Skill #1</h3>
+							<h4>Explaining what you offer to support this skill.</h4>
+
+							<div class="core">
+								<h5>Core Focus:</h5>
+								<p>List, Of, Core, Focus, Skills, Technologies</p>
+							</div>
+							
+							<div class="support">
+								<h5>Skill Support:</h5>
+								<ul>
+									<li>List</li>
+									<li>Of</li>
+									<li>Supporiting</li>
+									<li>Technology</li>
+									<li>Software</li>
+									<li>Credentials</li>
+								</ul>
+							</div>
+						</div>
+
+						<!-- Column 2 -->
+						<div aria-labelledby="skillsSkill2" class="column" role="region">
+							<div class="icon">
+								<i aria-hidden="true" class="fa-solid fa-shapes"></i>
+							</div>
+							
+							<h3 id="skillsSkill2">Skill #2</h3>
+							<h4>Explaining what you offer to support this skill.</h4>
+
+							<div class="core">
+								<h5>Core Focus:</h5>
+								<p>List, Of, Core, Focus, Skills, Technologies</p>
+							</div>
+							
+							<div class="support">
+								<h5>Skill Support:</h5>
+								<ul>
+									<li>List</li>
+									<li>Of</li>
+									<li>Supporiting</li>
+									<li>Technology</li>
+									<li>Software</li>
+									<li>Credentials</li>
+								</ul>
+							</div>
+						</div>
+
+						<!-- Column 3 -->
+						<div aria-labelledby="skillsSkill3" class="column" role="region">
+							<div class="icon">
+								<i aria-hidden="true" class="fa-solid fa-shapes"></i>
+							</div>
+							
+							<h3 id="skillsSkill3">Skill #3</h3>
+							<h4>Explaining what you offer to support this skill.</h4>
+
+							<div class="core">
+								<h5>Core Focus:</h5>
+								<p>List, Of, Core, Focus, Skills, Technologies</p>
+							</div>
+							
+							<div class="support">
+								<h5>Skill Support:</h5>
+								<ul>
+									<li>List</li>
+									<li>Of</li>
+									<li>Supporiting</li>
+									<li>Technology</li>
+									<li>Software</li>
+									<li>Credentials</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Portfolio -->
+			<section class="work">
+				<div class="container">
+					<h2>Portfolio</h2>
+
+					<p class="subhead">A few highlights. Replace thumbnails, captions, and links with your own. Replace this text with a short personal callout to the work.</p>
+
+					<div class="portfolio">
+						<figure>
+							<img alt="Project Thumbnail - Replace With Your Work's Title" class="thumb" decoding="async" loading="lazy" src="assets/work/work.png">
+							<figcaption>
+								<p class="caption">Brand and/or Visual Identity Example</p>
+								<a aria-label="Brand and/or Visual Identity Example" class="btn visit" href="https://example.com/" rel="noopener noreferrer" target="_blank">
+									Visit Site<i aria-hidden="true" class="fa-solid fa-shapes"></i>
+								</a>
+							</figcaption>
+						</figure>
+
+						<figure>
+							<img alt="Project Thumbnail - Replace With Your Work's Title" class="thumb" decoding="async" loading="lazy" src="assets/work/work.png">
+							<figcaption>
+								<p class="caption">Brand and/or Visual Identity Example</p>
+								<a aria-label="Brand and/or Visual Identity Example" class="btn visit" href="https://example.com/" rel="noopener noreferrer" target="_blank">
+									Visit Site<i aria-hidden="true" class="fa-solid fa-shapes"></i>
+								</a>
+							</figcaption>
+						</figure>
+						
+						<figure>
+							<img alt="Project Thumbnail - Replace With Your Work's Title" class="thumb" decoding="async" loading="lazy" src="assets/work/work.png">
+							<figcaption>
+								<p class="caption">Brand and/or Visual Identity Example</p>
+								<a aria-label="Brand and/or Visual Identity Example" class="btn visit" href="https://example.com/" rel="noopener noreferrer" target="_blank">
+									Visit Site<i aria-hidden="true" class="fa-solid fa-shapes"></i>
+								</a>
+							</figcaption>
+						</figure>
+						
+						<figure>
+							<img alt="Project Thumbnail - Replace With Your Work's Title" class="thumb" decoding="async" loading="lazy" src="assets/work/work.png">
+							<figcaption>
+								<p class="caption">Brand and/or Visual Identity Example</p>
+								<a aria-label="Brand and/or Visual Identity Example" class="btn visit" href="https://example.com/" rel="noopener noreferrer" target="_blank">
+									Visit Site<i aria-hidden="true" class="fa-solid fa-shapes"></i>
+								</a>
+							</figcaption>
+						</figure>
+						
+						<figure>
+							<img alt="Project Thumbnail - Replace With Your Work's Title" class="thumb" decoding="async" loading="lazy" src="assets/work/work.png">
+							<figcaption>
+								<p class="caption">Brand and/or Visual Identity Example</p>
+								<a aria-label="Brand and/or Visual Identity Example" class="btn visit" href="https://example.com/" rel="noopener noreferrer" target="_blank">
+									Visit Site<i aria-hidden="true" class="fa-solid fa-shapes"></i>
+								</a>
+							</figcaption>
+						</figure>
+						
+						<figure>
+							<img alt="Project Thumbnail - Replace With Your Work's Title" class="thumb" decoding="async" loading="lazy" src="assets/work/work.png">
+							<figcaption>
+								<p class="caption">Brand and/or Visual Identity Example</p>
+								<a aria-label="Brand and/or Visual Identity Example" class="btn visit" href="https://example.com/" rel="noopener noreferrer" target="_blank">
+									Visit Site<i aria-hidden="true" class="fa-solid fa-shapes"></i>
+								</a>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+			</section>
+
+			<!-- Call to Action -->
+			<section class="crosslink talk">
+				<div class="container">
+					<div class="banner">
+						<div class="item header">
+							<h2>Contact</h2>
+						</div>
+
+						<div class="item content">
+							<p>Replace this with your own CTA.</p>
+						</div>
+
+						<div class="item cta">
+							<button aria-controls="modal" aria-expanded="false" aria-haspopup="dialog" class="btn contact trigger" data-button="Contact" data-title="Contact" data-type="Contact">
+								<i aria-hidden="true" class="fa-solid fa-shapes"></i>Contact
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Collaborations -->
+			<section class="collaborations">
+				<div class="container">
+					<h2>Collaborations</h2>
+
+					<p class="subhead">Logos, concepts, and experiments. Replace these placeholders with your own work.</p>
+
+					<div class="projects" role="list">
+						<figure role="listitem">
+							<img alt="" class="preview" decoding="async" loading="lazy" src="assets/collaborations/logo.png">
+							<figcaption class="a11y">Logo</figcaption>
+						</figure>
+
+						<figure role="listitem">
+							<img alt="" class="preview" decoding="async" loading="lazy" src="assets/collaborations/logo.png">
+							<figcaption class="a11y">Logo</figcaption>
+						</figure>
+
+						<figure role="listitem">
+							<img alt="" class="preview" decoding="async" loading="lazy" src="assets/collaborations/logo.png">
+							<figcaption class="a11y">Logo</figcaption>
+						</figure>
+
+						<figure role="listitem">
+							<img alt="" class="preview" decoding="async" loading="lazy" src="assets/collaborations/logo.png">
+							<figcaption class="a11y">Logo</figcaption>
+						</figure>
+
+						<figure role="listitem">
+							<img alt="" class="preview" decoding="async" loading="lazy" src="assets/collaborations/logo.png">
+							<figcaption class="a11y">Logo</figcaption>
+						</figure>
+
+						<figure role="listitem">
+							<img alt="" class="preview" decoding="async" loading="lazy" src="assets/collaborations/logo.png">
+							<figcaption class="a11y">Logo</figcaption>
+						</figure>
+
+						<figure role="listitem">
+							<img alt="" class="preview" decoding="async" loading="lazy" src="assets/collaborations/logo.png">
+							<figcaption class="a11y">Logo</figcaption>
+						</figure>
+					</div>
+				</div>
+			</section>
+
+			<!-- Services -->
+			<section class="myServices" id="services">
+				<div class="container">
+					<h2>Services</h2>
+
+					<p class="subhead">Replace with the services you offer (i.e. audits, ongoing support, redesigns, etc.)</p>
+				</div>
+			</section>
+
+			<!-- Pricing -->
+			<section class="pricing">
+				<div class="container">
+					<h2 class="a11y">Services</h2>
+					<div class="content">
+						<!-- Column 1 -->
+						<div aria-labelledby="servicesService1" class="card" role="region">
+							<div class="icon">
+								<i aria-hidden="true" class="fa-solid fa-shapes"></i>
+							</div>
+
+							<h3 id="servicesService1">Service #1</h3>
+							<p class="price"><span class="a11y">Price: </span>$0</p>
+
+							<p class="scope">High-level details about your service and what you offer with it. Define what is being provided.</p>
+
+							<button aria-controls="modal" aria-expanded="false" aria-haspopup="dialog" class="btn contact trigger" data-button="Contact" data-title="Contact" data-type="Contact">
+								Contact
+							</button>
+						</div>
+
+						<!-- Column 2 -->
+						<div aria-labelledby="servicesService2" class="card" role="region">
+							<div class="icon">
+								<i aria-hidden="true" class="fa-solid fa-shapes"></i>
+							</div>
+
+							<h3 id="servicesService2">Service #2</h3>
+							<p class="price"><span class="a11y">Price: </span>$0</p>
+
+							<p class="scope">High-level details about your service and what you offer with it. Define what is being provided.</p>
+
+							<p class="note">Footnote if extra details are needed.</p>
+
+							<button aria-controls="modal" aria-expanded="false" aria-haspopup="dialog" class="btn contact trigger" data-button="Contact" data-title="Contact" data-type="Contact">
+								Contact
+							</button>
+						</div>
+
+						<!-- Column 3 -->
+						<div aria-labelledby="servicesService3" class="card" role="region">
+							<div class="icon">
+								<i aria-hidden="true" class="fa-solid fa-shapes"></i>
+							</div>
+
+							<h3 id="servicesService3">Service #3</h3>
+							<p class="price"><span class="a11y">Price: </span>$0</p>
+
+							<p class="scope">High-level details about your service and what you offer with it. Define what is being provided.</p>
+
+							<button aria-controls="modal" aria-expanded="false" aria-haspopup="dialog" class="btn contact trigger" data-button="Contact" data-title="Contact" data-type="Contact">
+								Contact
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Testimonials -->
+			<section class="testimonials">
+				<div class="container">
+					<h2>Testimonials</h2>
+
+					<p class="subhead">Replace quotes, headshots, and names with your own content.</p>
+
+					<div class="content" role="list">
+						<!-- Column 1 -->
+						<div aria-labelledby="quote1" class="card" role="listitem">
+							<div class="quote">
+								<i aria-hidden="true" class="fa-solid fa-quote-left"></i>
+								<blockquote>
+									<p>This template made it easy to launch a clean portfolio quickly.</p>
+								</blockquote>
+							</div>
+
+							<div class="individual">
+								<div class="pic">
+									<img alt="Headshot" decoding="async" loading="lazy" src="assets/testimonials/headshot.png">
+								</div>
+								<p class="name" id="quote1"><cite>Jon Snow</cite><br /><span class="title">Lord Commander</span><br /><span class="company">Night's Watch</span></p>
+							</div>
+						</div>
+						
+						<!-- Column 2 -->
+						<div aria-labelledby="quote2" class="card" role="listitem">
+							<div class="quote">
+								<i aria-hidden="true" class="fa-solid fa-quote-left"></i>
+								<blockquote>
+									<p>This template made it easy to launch a clean portfolio quickly.</p>
+								</blockquote>
+							</div>
+
+							<div class="individual">
+								<div class="pic">
+									<img alt="Headshot" decoding="async" loading="lazy" src="assets/testimonials/headshot.png">
+								</div>
+								<p class="name" id="quote2"><cite>Shawn Spencer</cite><br /><span class="title">Psychic Detective</span><br /><span class="company">Psych</span></p>
+							</div>
+						</div>
+						
+						<!-- Column 3 -->
+						<div aria-labelledby="quote3" class="card" role="listitem">
+							<div class="quote">
+								<i aria-hidden="true" class="fa-solid fa-quote-left"></i>
+								<blockquote>
+									<p>This template made it easy to launch a clean portfolio quickly.</p>
+								</blockquote>
+							</div>
+
+							<div class="individual">
+								<div class="pic">
+									<img alt="Headshot" decoding="async" loading="lazy" src="assets/testimonials/headshot.png">
+								</div>
+								<p class="name" id="quote3"><cite>Clark Kent</cite><br /><span class="title">Reporter</span><br /><span class="company">Daily Planet</span></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Call to Action -->
+			<section class="crosslink project">
+				<div class="container">
+					<div class="banner">
+						<div class="item header">
+							<h2>Contact</h2>
+						</div>
+
+						<div class="item content">
+							<p>Replace this with your own CTA.</p>
+						</div>
+
+						<div class="item cta">
+							<button aria-controls="modal" aria-expanded="false" aria-haspopup="dialog" class="btn contact trigger" data-button="Contact" data-title="Contact" data-type="Contact">
+								<i aria-hidden="true" class="fa-solid fa-shapes"></i>Contact
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<!-- Footer -->
+		<footer class="footer">
+			<div class="container">
+				<button aria-labelledby="logoTop" class="footer-identity" id="footerLogo" type="button">
+					<svg class="logo" viewBox="0 0 380 240" xmlns="http://www.w3.org/2000/svg">
+						<title id="logoTop">Placeholder Logo</title>
+						<rect x="0" y="48" width="60" height="144" rx="6"/>
+						<rect x="80"  y="0"  width="60"  height="240" rx="6"/>
+						<rect x="160" y="12" width="60"  height="192" rx="6"/>
+						<rect x="240" y="48" width="60"  height="144" rx="6"/>
+						<rect x="320" y="36" width="60"  height="96" rx="6"/>
+					</svg>
+				</button>
+
+				<p class="personality">
+					Replace with a short personalized description or tagline about yourself
+				</p>
+
+				<!-- Placeholder Social Links -->
+				<div class="socials">
+					<a aria-label="LinkedIn" class="btn-social" href="#" rel="noopener noreferrer" target="_blank" title="LinkedIn">
+						<i aria-hidden="true" class="fa-brands fa-linkedin-in"></i>
+					</a>
+
+					<a aria-label="X" class="btn-social" href="#" rel="noopener noreferrer" target="_blank" title="X">
+						<i aria-hidden="true" class="fa-brands fa-x-twitter"></i>
+					</a>
+
+					<a aria-label="Instagram" class="btn-social" href="#" rel="noopener noreferrer" target="_blank" title="Instagram">
+						<i aria-hidden="true" class="fa-brands fa-instagram"></i>
+					</a>
+
+					<a aria-label="Email" class="btn-social" href="mailto:hello@example.com" title="Email">
+						<i aria-hidden="true" class="fa-solid fa-envelope"></i>
+					</a>
+				</div>
+
+				<p class="copyright">
+					© <span id="dateYear"></span> Your Name. All rights reserved.
+				</p>
+			</div>
+		</footer>
+
+		<!-- Contact Modal -->
+		<div aria-labelledby="modalTitle" aria-modal="true" class="modal" hidden id="modal" role="dialog" tabindex="-1">
+			<div class="content">
+				<div class="fixed">
+					<h2 id="modalTitle">Form Title</h2>
+
+					<button aria-label="Close" class="btn-close trigger" type="button">
+						<i aria-hidden="true" class="fa-solid fa-xmark"></i>
+					</button>
+				</div>
+
+				<div class="scroll">
+					<!-- NOTE: Replace Form Action with Your Own Endpoint or Service -->
+					<form action="#" class="form" id="contact" method="POST">
+						<div class="group">
+							<div class="field name">
+								<input name="Inquiry" type="hidden" value="General">
+
+								<label class="a11y" for="name">Name:</label>
+								<input autocomplete="name" class="input" id="name" name="Name" placeholder="Name" type="text" required>
+							</div>
+
+							<div class="field email">
+								<label class="a11y" for="email">Email:</label>
+								<input autocomplete="email" class="input" id="email" name="Email" placeholder="Email" type="email" required>
+							</div>
+						</div>
+
+						<div class="field message">
+							<label class="a11y" for="message">Message:</label>
+							<textarea class="input area" id="message" name="Message" placeholder="Message" rows="5" required></textarea>
+						</div>
+
+						<div class="actions">
+							<button class="btn submit" id="button" type="submit">Submit</button>
+						</div>
+					</form>
+				</div>
+
+				<div class="status">
+					<p id="status" role="status"></p>
+				</div>
+			</div>
+		</div>
+
+		<script defer src="js/scripts.js" type="text/javascript"></script>
+	</body>
+</html>
